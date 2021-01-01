@@ -168,6 +168,7 @@ _*Download*_
 └ *${prefix}tiktok* [link]
 
 _*Owner*_
+├ *${prefix}kudeta*
 ├ *${prefix}bc*
 ├ *${prefix}bc2*
 ├ *${prefix}leave*

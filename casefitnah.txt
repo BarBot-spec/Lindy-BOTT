@@ -1,0 +1,15 @@
+case 'fitnah':
+				if (!isPremium) return reply('Maaf Harus Vitur premium jika anda ingin menjadi premium chat pembuat bot')
+				if (args.length < 1) return reply(`Usage :\n${prefix}fitnah [@tag|pesan|balasanbot]]\n\nEx : \n${prefix}fitnah @tagmember|hai|hai juga`)
+				var gh = body.slice(8)
+				mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+					var replace = gh.split("|")[0];
+					var target = gh.split("|")[1];
+					var bot = gh.split("|")[2];
+					client.sendMessage(from, `${bot}`, text, {quoted: { key: { fromMe: false, participant: `${mentioned}`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target}` }}})
+					break
+					
+					
+					
+					
+#BY : XPTN AND CHALPIH AND ALFA THANKS FOR FRENDS
